@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.calender-container{
+    background-color: rgba(60, 131, 194, 0.8);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calender-content{
+    width: 300px;
+    text-align: center;
+}
+.calender-month{
+    background-color: red;
+    padding-block: 20px;
+
+}
+.calender-date{
+    background-color: white;
+    padding-block: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
